@@ -174,6 +174,7 @@ nav form button{
 .typesOfUni{
     display: flex;
     justify-content: center;
+    color: #1B4965;
 }
 
 .countryList{
@@ -191,6 +192,10 @@ nav form button{
     border-radius: 20px;
     margin: 10px;
     padding: 10px;
+}
+
+.kw{
+color: #1B4965;
 }
 
 .countryList li:hover{
@@ -221,4 +226,7 @@ figcaption{
     padding: 2px;
 }
 
+figcaption:hover{
+    background-color: #62B6CB;
+}
 
