@@ -9,7 +9,6 @@ body{
     height: 100%;
     font-family: 'Courier New', Courier, monospace;
     background-image: url(https://www.radiusstaffingsolutions.com/wp-content/uploads/iStock-992723324-512x341.jpg);
-    background-repeat: no-repeat;
     background-size: cover;
 }
 
@@ -59,6 +58,10 @@ nav ul li a{
 a:hover{
     background:#62B6CB;
     transition: 0.5s;
+}
+
+a:active{
+    background:#BEE9E8;
 }
 
 /*search bar*/
@@ -179,11 +182,11 @@ nav form button{
 
 .countryList{
     font-size: 16px;
-    padding-top: 50px;
+    padding-top: 30px;
 } 
 
 .countryList li{
-    padding: 4px;
+    padding: 6px;
 }
 
 .kw:hover{
@@ -203,8 +206,25 @@ color: #1B4965;
     transition: 0.5s;
     border-radius: 20px;
     margin: 10px;
-    padding: 5px;
+    padding: 10px;
 }
+
+.row1{
+    flex-direction: row;
+}
+
+.flags{
+    width: 30px;
+    float: left;
+    border-radius: 5px;
+}
+
+.kuwaitflag{
+    width: 300px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
 /*end of universities page*/
 
 /*universities in kuwait page*/
@@ -230,3 +250,38 @@ figcaption:hover{
     background-color: #62B6CB;
 }
 
+.row1{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+/*end of universities in kuwait page*/
+
+/*courses page*/
+
+.twitterPage{
+    width: 30%;
+    margin: 10px;   
+    border-radius: 20px;
+}
+
+.twitter{
+    display: flex;
+    justify-content: center;
+}
+
+.coursesTitle{
+    background-color: #BEE9E8;
+    border-radius: 20px;
+    text-align: center;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.coursesTitle:hover{
+    background-color: #62B6CB;
+}
+
+/*end of courses page*/
