@@ -277,11 +277,34 @@ figcaption:hover{
     border-radius: 20px;
     text-align: center;
     padding: 10px;
-    font-size: 18px;
+    font-size: 19px;
 }
 
 .coursesTitle:hover{
     background-color: #62B6CB;
+    transition: 0.5s;
 }
 
 /*end of courses page*/
+
+/*quiz page*/
+
+#main {
+    width: 80%;
+    max-width: 950px;
+    margin: auto;
+    padding: 10px;
+    background-color: white;
+    border-radius: 20px;
+    }
+    
+    #header {
+    padding: 5px;
+    height: 100px;
+    background: #BEE9E8;
+    color: #1B4965;
+    border-radius: 20px;
+    text-align: center;
+    }
+
+/*end of quiz page*/
