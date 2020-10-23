@@ -57,7 +57,8 @@ nav ul li a{
 
 a:hover{
     background:#62B6CB;
-    transition: 0.5s;
+    border-radius: 20px;
+    padding: 4px;
 }
 
 a:active{
@@ -118,12 +119,33 @@ nav form button{
     margin: 40px;
     margin-top: 50px;
     text-align: center;
+    color: #1B4965;
 }
 
 .info{
     display: flex;
     justify-content: center;
 }
+
+.gif{
+    width: 450px;
+    height: 360px;
+    margin: 40px;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+
+.ministry{
+    width: 200px;
+    margin-top: 60px;
+}
+
+.logoPNG{
+    width: 200px;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
 
 /*end of index page text*/
 
@@ -256,7 +278,6 @@ figcaption:hover{
 }
 
 
-
 /*end of universities in kuwait page*/
 
 /*courses page*/
@@ -282,7 +303,6 @@ figcaption:hover{
 
 .coursesTitle:hover{
     background-color: #62B6CB;
-    transition: 0.5s;
 }
 
 /*end of courses page*/
@@ -290,21 +310,62 @@ figcaption:hover{
 /*quiz page*/
 
 #main {
-    width: 80%;
+    width: 75%;
     max-width: 950px;
+    border: 1px gray solid;
     margin: auto;
     padding: 10px;
-    background-color: white;
+    background-color: #BEE9E8;
+    border-radius: 10px;
+    font-size: 16px;
     border-radius: 20px;
+    opacity: 80%;
+    color: #1B4965;
+    margin-bottom: 100px;
     }
     
-    #header {
+ #header {
+    margin-top: 0;
     padding: 5px;
     height: 100px;
-    background: #BEE9E8;
-    color: #1B4965;
+    background: #62B6CB;
+    color:white;
     border-radius: 20px;
+    font-size: 14px;
     text-align: center;
     }
 
+label {
+    display: block;
+    }
+        
+ input {
+    width: 30px;
+    margin-right: 20px;
+    }
+        
+h2 {
+    clear: both;
+    padding-top: 20px;
+    }
+        
+button {
+    width: 100px;
+    margin-top: 20px;
+    }
+
+.results{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.resultsBox{
+    background-color: #62B6CB;
+    font-weight: bold;
+    border-radius: 20px;
+    text-align: center;
+    color:white;
+    padding: 6px;
+}
+        
 /*end of quiz page*/

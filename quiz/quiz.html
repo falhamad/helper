@@ -6,6 +6,7 @@
     <title>اختبر نفسك</title>
     <link rel="stylesheet" href="../style.css" > 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   
 </head>
 <body>
     <nav>
@@ -25,46 +26,84 @@
 
     <h1 class="slogan">اختبر نفسك</h1>
 
-    <div id="main"><!-- open main div -->
-        <div id="header"><!-- open header div -->
-        <h1>JavaScript Quiz</h1>
-        </div><!-- close header div -->
-        
+    <div id="main">
+        <div id="header">
+        <h1>أجب عن هذا الاختبار القائم على الشخصية لمعرفة الوظائف التي قد تكون مناسبة لك!</h1>
+        </div>
+        <hr>
         <form id="form1">
+      
+            <h2>أنا جيد مع الأرقام وأنا مهتم بالتفاصيل.</h2>
+            <label for="number_SA"><input type="radio" name="number" value="3" id="number_SA" />اوافق بشدة</label>
+            <label for="number_A"><input type="radio" name="number" value="4" id="number_A" />اوافق</label>
+            <label for="number_D"><input type="radio" name="number" value="2" id="number_D" />اعارض</label>
+            <label for="number_SD"><input type="radio" name="number" value="1" id="number_SD"/>اعارض بشدة</label>
+            
+            <h2>أنا مهتم بالعلوم وأستمتع بمساعدة الناس.</h2>
+            <label for="science_SA"><input type="radio" name="science" value="4" id="science_SA"/>اوافق بشدة</label>
+            <label for="science_A"><input type="radio" name="science" value="2" id="science_A"/>اوافق</label>
+            <label for="science_D"><input type="radio" name="science" value="3" id="science_D" />اعارض</label>
+            <label for="science_SD"><input type="radio" name="science" value="1" id="science_SD" />اعارض بشدة</label>
+            
+            <h2>أنا طموح للغاية ومقنع وأحب صنع أفكاري الخاصة.</h2>
+            <label for="business_SA"><input type="radio" name="business" value="3" id="business_SA" />اوافق بشدة</label>
+            <label for="business_A"><input type="radio" name="business" value="2" id="business_A" />اوافق</label>
+            <label for="business_D"><input type="radio" name="business" value="4" id="business_D" />اعارض</label>
+            <label for="business_SD"><input type="radio" name="business" value="1" id="business_SD" />اعارض بشدة</label>
+            
+            <h2>أنا أستمتع بتعلم اللغات.</h2>
+            <label for="language_SA"><input type="radio" name="language" value="1" id="language_SA" />اوافق بشدة</label>
+            <label for="language_A"><input type="radio" name="language" value="2" id="language_A" />اوافق</label>
+            <label for="language_D"><input type="radio" name="language" value="3" id="language_D" />اعارض</label>
+            <label for="language_SD"><input type="radio" name="language"  value="4" id="language_SD" />اعارض بشدة</label>
+            
+            <h2>أحب أن أقدم النصيحة للآخرين.</h2>
+            <label for="socialS_SA"><input type="radio" name="socialS" value="2" id="socialS_SA" />اوافق بشدة</label>
+            <label for="socialS_A"><input type="radio" name="socialS" value="1" id="socialS_A" />اوافق</label>
+            <label for="socialS_D"><input type="radio" name="socialS" value="3" id="socialS_D" />اعارض</label>
+            <label for="socialS_SD"><input type="radio" name="socialS"  value="4" id="socialS_SD" />اعارض بشدة</label>
 
-            <h2>Which is the best description of a variable?</h2>
-            <label for="var_string"><input type="radio" name="variable" value="0" id="var_string" />Identifies a portion of a string.</label>
-            <label for="var_join"><input type="radio" name="variable" value="0" id="var_join" />A method to join strings.</label>
-            <label for="var_info"><input type="radio" name="variable" value="25" id="var_info" />Allows you to store information so it can be reused throughout the program</label>
-            <label for="var_condition"><input type="radio" name="variable" value="0" id="var_condition"/>Allows you to make a decision based on a condition.</label>
-            
-            <h2>Which is the best description of the substring method?</h2>
-            <label for="sub_string"><input type="radio" name="sub" value="25" id="sub_string"/>Identifies a portion of a string.</label>
-            <label for="sub_join"><input type="radio" name="sub" value="0" id="sub_join"/>A method to join strings.</label>
-            <label for="sub_info"><input type="radio" name="sub" value="0" id="sub_info" />Allows you to store information so it can be reused throughout the program</label>
-            <label for="sub_condition"><input type="radio" name="sub" value="0" id="sub_condition" />Allows you to make a decision based on a condition.</label>
-            
-            <h2>Which is the best description of concatenation?</h2>
-            <label for="cat_string"><input type="radio" name="con" value="0" id="cat_string" />Identifies a portion of a string.</label>
-            <label for="cat_join"><input type="radio" name="con" value="25" id="cat_join" />A method to join strings.</label>
-            <label for="cat_info"><input type="radio" name="con" value="0" id="cat_info" />Allows you to store information so it can be reused throughout the program</label>
-            <label for="cat_condition"><input type="radio" name="con" value="0" id="cat_condition" />Allows you to make a decision based on a condition.</label>
-            
-            <h2>Which is the best description of an if statement?</h2>
-            <label for="if_string"><input type="radio" name="ifstate" value="0" id="if_string" />Identifies a portion of a string.</label>
-            <label for="if_join"><input type="radio" name="ifstate" value="0" id="if_join" />A method to join strings.</label>
-            <label for="if_info"><input type="radio" name="ifstate" value="0" id="if_info" />Allows you to store information so it can be reused throughout the program</label>
-            <label for="if_condition"><input type="radio" name="ifstate"  value="25" id="if_condition" />Allows you to make a decision based on a condition.</label>
-            
-            <button type="submit" value="Submit">Submit</button>
-            
+            <h2>أحب الرياضيات ومعرفة كيفية عمل الأشياء.</h2>
+            <label for="math_SA"><input type="radio" name="math" value="4" id="math_SA" />اوافق بشدة</label>
+            <label for="math_A"><input type="radio" name="math" value="3" id="math_A" />اوافق</label>
+            <label for="math_D"><input type="radio" name="math" value="2" id="math_D" />اعارض</label>
+            <label for="math_SD"><input type="radio" name="math"  value="1" id="math_SD" />اعارض بشدة</label>
+
+            <h2>أنا أقرأ كتب دائمًا أو أكتب قصصي الخاصة.</h2>
+            <label for="read_SA"><input type="radio" name="read" value="1" id="read_SA" />اوافق بشدة</label>
+            <label for="read_A"><input type="radio" name="read" value="2" id="read_A" />اوافق</label>
+            <label for="read_D"><input type="radio" name="read" value="3" id="read_D" />اعارض</label>
+            <label for="read_SD"><input type="radio" name="read"  value="4" id="read_SD" />اعارض بشدة</label>
+
+            <h2>أنا أستمتع بالعمل مع الناس ولدي مهارات تواصل قوية.</h2>
+            <label for="skill_SA"><input type="radio" name="skill" value="3" id="skill_SA" />اوافق بشدة</label>
+            <label for="skill_A"><input type="radio" name="skill" value="1" id="skill_A" />اوافق</label>
+            <label for="skill_D"><input type="radio" name="skill" value="3" id="skill_D" />اعارض</label>
+            <label for="skill_SD"><input type="radio" name="skill" value="4" id="skill_SD" />اعارض بشدة</label>
+
+            <h2>أنا مهتم بحل النزاعات أو العدالة الجنائية أو الوساطة.</h2>
+            <label for="conflict_SA"><input type="radio" name="conflict" value="2" id="conflict_SA" />اوافق بشدة</label>
+            <label for="conflict_A"><input type="radio" name="conflict" value="1" id="conflict_A" />اوافق</label>
+            <label for="conflict_D"><input type="radio" name="conflict" value="3" id="conflict_D" />اعارض</label>
+            <label for="conflict_SD"><input type="radio" name="conflict"  value="4" id="conflict_SD" />اعارض بشدة</label>
+
+            <h2>أنا أستمتع بمعرفة كيفية عمل جسم الإنسان.</h2>
+            <label for="body_SA"><input type="radio" name="body" value="4" id="body_SA" />اوافق بشدة</label>
+            <label for="body_A"><input type="radio" name="body" value="2" id="body_A" />اوافق</label>
+            <label for="body_D"><input type="radio" name="body" value="1" id="body_D" />اعارض</label>
+            <label for="body_SD"><input type="radio" name="body"  value="3" id="body_SD" />اعارض بشدة</label>
+
+            <button type="submit" value="Submit">ارسال</button>
+            <hr>
             </form>
             
             
-        
-        <p>Your grade is: <span id="grade">__</span></p>
+        <div class="resultsBox">
+        <p class="results">نتيجتك هي <span id="grade">__</span></p>
         <p id="grade2"></p>
-        </div><!-- close main div -->
+        </div>
+   </div>
+
 
     <div class="footer">
         <p>التواصل الاجتماعي</p>
@@ -72,7 +111,7 @@
         <a href="https://www.google.com/gmail/" class="fa fa-google"></a>
         <a href="https://twitter.com/?lang=en" class="fa fa-twitter"></a>
     </div>
-
+    
     <script src="../scripts.js"></script>
 </body>
 </html>
