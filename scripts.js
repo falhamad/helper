@@ -30,5 +30,7 @@ document.getElementById("form1").onsubmit=function() {
 return false; // required to not refresh the page; just leave this here
 } //this ends the submit function
 
+//pic changes
+
 
 

@@ -369,3 +369,43 @@ button {
 }
         
 /*end of quiz page*/
+
+/*each university pages*/
+
+.detail{
+    background-color: #BEE9E8;
+    border-radius: 20px;
+    width: 400px;
+    height: 210px;
+    margin: 40px;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 20px;
+    padding: 20px;
+    opacity: 65%;
+}
+
+.detail:hover{
+    opacity: 100%;
+}
+
+.boxes{
+    display: flex;
+}
+
+.pics{
+    float: left;
+    margin: 40px;
+    margin-top: 50px;
+    opacity: 90%;
+    border-radius: 20px;
+    height: 450px;
+    width: 400px;
+}
+
+.pics:hover{
+    opacity: 100%;
+    transition: ease-in-out;
+}
+
+/*end of each university pages*/
