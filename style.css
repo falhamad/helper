@@ -147,6 +147,24 @@ nav form button{
     margin-right: 8px;
 }
 
+.graduate{
+    animation-duration: 30s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+    width: 100px;
+}
+
+@keyframes slidein {
+  100% {
+    margin-right: 0%;
+  }
+  50% {
+    margin-right: 100%;
+  }
+  100% {
+    margin-right: 0%;
+  }
+}
 
 /*end of index page text*/
 
@@ -405,6 +423,5 @@ button {
     width: 400px;
 }
 
-
-
 /*end of each university pages*/
+
